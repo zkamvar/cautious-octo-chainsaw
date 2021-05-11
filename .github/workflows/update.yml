@@ -6,9 +6,6 @@ on:
         description: 'Person who triggered the workflow'
         required: true
         default: 'weekly run'
-  schedule:
-    # Run every Monday
-    - cron: 30-59/5 */1 * * 1
 
 jobs:
   update-styles:
